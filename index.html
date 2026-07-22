@@ -1,1 +1,313 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SP — Automation &amp; SEO Portfolio</title>
+<meta name="description" content="Portfolio of SP — UiPath Certified RPA Developer blending 5 years of SEO expertise with intelligent process automation.">
+
+<!-- Fonts: Space Grotesk (display), Inter (body), IBM Plex Mono (labels/data) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- =========================================================
+       SIDEBAR — Identity + Workflow Navigation
+       EDIT: name, role, tagline, contact links below
+  ========================================================== -->
+  <aside class="sidebar">
+
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">SP</div>
+      <div class="brand-text">
+        <!-- EDIT ME: your full name -->
+        <h1>S. P. <span class="brand-surname">[Your Last Name]</span></h1>
+        <!-- EDIT ME: your one-line role -->
+        <p class="brand-role">RPA Developer · Automation-Led SEO Strategist</p>
+      </div>
+    </div>
+
+    <!-- Workflow-style tab navigation: each tab is a "node" on an
+         automation pipeline, connected by an animated execution line.
+         This mirrors the UiPath Studio canvas metaphor. -->
+    <nav class="workflow-nav" role="tablist" aria-label="Portfolio sections">
+      <div class="flow-line" aria-hidden="true"><span class="flow-pulse"></span></div>
+
+      <button class="node" role="tab" aria-selected="false" aria-controls="summary" data-tab="summary">
+        <span class="node-index">01</span>
+        <span class="node-dot"></span>
+        <span class="node-label">Summary</span>
+      </button>
+
+      <button class="node active" role="tab" aria-selected="true" aria-controls="skills" data-tab="skills">
+        <span class="node-index">02</span>
+        <span class="node-dot"></span>
+        <span class="node-label">Skills</span>
+      </button>
+
+      <button class="node" role="tab" aria-selected="false" aria-controls="projects" data-tab="projects">
+        <span class="node-index">03</span>
+        <span class="node-dot"></span>
+        <span class="node-label">Projects</span>
+      </button>
+
+      <button class="node" role="tab" aria-selected="false" aria-controls="experience" data-tab="experience">
+        <span class="node-index">04</span>
+        <span class="node-dot"></span>
+        <span class="node-label">Experience</span>
+      </button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <!-- EDIT ME: upload your resume PDF into the repo (e.g. /assets/SP-Resume.pdf)
+           and point this href at it. The "download" attribute makes it
+           save the file instead of opening it in-browser. -->
+      <a href="assets/SP-Resume.pdf" download class="resume-btn">Download Resume</a>
+
+      <!-- EDIT ME: replace # with your real links -->
+      <a href="mailto:your.email@example.com" class="footer-link">Email</a>
+      <a href="https://linkedin.com/in/your-handle" target="_blank" rel="noopener" class="footer-link">LinkedIn</a>
+      <a href="https://github.com/your-handle" target="_blank" rel="noopener" class="footer-link">GitHub</a>
+      <span class="footer-status"><span class="status-dot"></span>Open to opportunities</span>
+    </div>
+  </aside>
+
+  <!-- =========================================================
+       MAIN CONTENT — Tab Panels
+  ========================================================== -->
+  <main class="content">
+
+    <!-- ============ SUMMARY ============ -->
+    <section id="summary" class="tab-panel" role="tabpanel">
+      <p class="eyebrow">// Summary</p>
+      <h2 class="panel-title">Where <span class="hl">automation logic</span><br>meets <span class="hl-alt">search intent</span>.</h2>
+
+      <p class="lede">
+        <!-- EDIT ME: your headline pitch -->
+        I'm SP — a UiPath Certified Automation Professional (Developer track) with an
+        Electronics &amp; Telecommunication engineering background. Over the past 5 years
+        in SEO, I learned how search systems, crawlers, and reporting pipelines actually
+        behave — now I use that same systems-thinking to design RPA workflows that remove
+        manual work from complex business processes.
+      </p>
+
+      <div class="summary-grid">
+        <div class="stat-card">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Years in SEO &amp; Digital Ops</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">UiPath</span>
+          <span class="stat-label">Certified Automation Professional — Developer</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">EnTC</span>
+          <span class="stat-label">B.E. Electronics &amp; Telecommunication</span>
+        </div>
+      </div>
+
+      <div class="focus-block">
+        <h3>What I actually do</h3>
+        <ul class="focus-list">
+          <li><strong>Process mining →</strong> spotting repetitive, rule-based work inside SEO and marketing operations.</li>
+          <li><strong>Bot building →</strong> designing UiPath workflows (REFramework, queues, orchestration) that run it reliably, unattended.</li>
+          <li><strong>Bridging teams →</strong> translating between marketing stakeholders and automation delivery, since I've sat on both sides.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="tab-panel active" role="tabpanel">
+      <p class="eyebrow">// Skills</p>
+      <h2 class="panel-title">Two toolkits,<br>one <span class="hl">workflow</span>.</h2>
+
+      <div class="skills-columns">
+
+        <div class="skill-block">
+          <h3 class="skill-block-title"><span class="tag tag-amber">RPA / Automation</span></h3>
+          <ul class="skill-tags">
+            <!-- EDIT ME: adjust to your actual toolset -->
+            <li>UiPath Studio</li>
+            <li>UiPath Orchestrator</li>
+            <li>REFramework</li>
+            <li>Document Understanding</li>
+            <li>Queues &amp; Triggers</li>
+            <li>API / Excel / PDF Automation</li>
+            <li>Exception Handling</li>
+            <li>Process Design Docs (PDD/SDD)</li>
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3 class="skill-block-title"><span class="tag tag-teal">SEO / Digital</span></h3>
+          <ul class="skill-tags">
+            <!-- EDIT ME: adjust to your actual toolset -->
+            <li>Technical SEO</li>
+            <li>On-Page &amp; Content Strategy</li>
+            <li>Keyword Research</li>
+            <li>Google Search Console</li>
+            <li>Google Analytics (GA4)</li>
+            <li>SEMrush / Ahrefs</li>
+            <li>Reporting Automation</li>
+            <li>Site Audits</li>
+          </ul>
+        </div>
+
+        <div class="skill-block">
+          <h3 class="skill-block-title"><span class="tag tag-line">Foundations</span></h3>
+          <ul class="skill-tags">
+            <!-- EDIT ME -->
+            <li>Electronics &amp; Telecom (EnTC)</li>
+            <li>Logical / Systems Thinking</li>
+            <li>VBA</li>
+            <li>SQL Basics</li>
+            <li>Stakeholder Communication</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="tab-panel" role="tabpanel">
+      <p class="eyebrow">// Projects</p>
+      <h2 class="panel-title">Selected <span class="hl">builds</span>.</h2>
+
+      <div class="project-grid">
+
+        <!-- EDIT ME: duplicate this .project-card block for each project -->
+        <article class="project-card">
+          <div class="project-card-head">
+            <span class="project-index">01</span>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" aria-label="Repository link">Repo</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Demo link">Demo</a>
+            </div>
+          </div>
+          <h3>SEO Reporting Bot</h3>
+          <p>
+            Unattended UiPath robot that pulls ranking, traffic, and crawl-error data
+            from multiple SEO tools, consolidates it into a single sheet, and emails a
+            formatted report to stakeholders every morning.
+          </p>
+          <ul class="project-tags">
+            <li>UiPath</li><li>Orchestrator</li><li>Excel Automation</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-head">
+            <span class="project-index">02</span>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" aria-label="Repository link">Repo</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Demo link">Demo</a>
+            </div>
+          </div>
+          <h3>Invoice Processing Workflow</h3>
+          <p>
+            Document Understanding-based pipeline that extracts vendor invoice data,
+            validates it against purchase orders, and routes exceptions for human
+            review — cutting manual entry time significantly.
+          </p>
+          <ul class="project-tags">
+            <li>Document Understanding</li><li>REFramework</li><li>Queues</li>
+          </ul>
+        </article>
+
+        <article class="project-card">
+          <div class="project-card-head">
+            <span class="project-index">03</span>
+            <div class="project-links">
+              <a href="#" target="_blank" rel="noopener" aria-label="Repository link">Repo</a>
+              <a href="#" target="_blank" rel="noopener" aria-label="Demo link">Demo</a>
+            </div>
+          </div>
+          <h3>Content Audit Automation</h3>
+          <p>
+            Bot that crawls a site's published content, flags thin or outdated pages
+            against a set of SEO rules, and generates a prioritized action list for
+            the content team.
+          </p>
+          <ul class="project-tags">
+            <li>UiPath</li><li>Web Scraping</li><li>SEO Rules Engine</li>
+          </ul>
+        </article>
+
+        <!-- ADD MORE .project-card blocks here as needed -->
+
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="tab-panel" role="tabpanel">
+      <p class="eyebrow">// Experience</p>
+      <h2 class="panel-title">Career <span class="hl">timeline</span>.</h2>
+
+      <div class="timeline">
+
+        <!-- EDIT ME: duplicate this .timeline-item block for each role -->
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-meta">
+              <span class="timeline-dates">2023 — Present</span>
+              <span class="tag tag-amber">Automation</span>
+            </div>
+            <h3>RPA Developer</h3>
+            <p class="timeline-org">Company Name</p>
+            <ul>
+              <li>Designed and deployed UiPath workflows for [process], reducing manual effort by [X]%.</li>
+              <li>Built REFramework-based unattended bots orchestrated via UiPath Orchestrator.</li>
+              <li>Partnered with business teams to document PDD/SDD and hand off production-ready automations.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-meta">
+              <span class="timeline-dates">2019 — 2023</span>
+              <span class="tag tag-teal">SEO</span>
+            </div>
+            <h3>SEO Specialist</h3>
+            <p class="timeline-org">Company Name</p>
+            <ul>
+              <li>Managed technical SEO and content strategy across [X] client sites.</li>
+              <li>Built recurring reporting processes later automated using UiPath.</li>
+              <li>Improved organic traffic by [X]% through structured on-page and off-page initiatives.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-body">
+            <div class="timeline-meta">
+              <span class="timeline-dates">Graduation Year</span>
+              <span class="tag tag-line">Education</span>
+            </div>
+            <h3>B.E. Electronics &amp; Telecommunication</h3>
+            <p class="timeline-org">University / College Name</p>
+            <ul>
+              <li>Core coursework in signal systems, digital logic, and communication networks.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
